@@ -1,9 +1,9 @@
-// scenarios.jsx — five ADDIE-phase decision points for the L&D consulting simulation.
+// scenarios.js — five ADDIE-phase decision points for the L&D consulting simulation.
 // Each scenario follows the rubric: one strong consultative, one partially effective,
 // one order-taker, one over-engineered. Options are deliberately calibrated so none
 // announces its archetype — feedback is nuanced, not right/wrong.
 
-const SCENARIOS = [
+export const SCENARIOS = [
   // ─────────────────────────────────────────────────────────────── 1. ANALYSIS
   {
     id: "s1",
@@ -322,4 +322,4 @@ const SCENARIOS = [
   },
 ];
 
-window.SCENARIOS = SCENARIOS;
+export default SCENARIOS;
