@@ -15,7 +15,7 @@ export const SCENARIOS = [
     channel: "Phone call · 09:12 · Voicemail transcribed",
     from: {
       name: "Joe Martinez",
-      role: "Operations Director · Bayline Manufacturing",
+      role: "Operations Director · Logistics XYZ",
       initials: "JM",
     },
     message: [
@@ -57,9 +57,9 @@ export const SCENARIOS = [
         verdict: "over",
         label: "Premature · too broad",
         text:
-          "\"Before we lock the format, I'd want to do proper diagnostics — interviews across all three shifts, observations, a quick benchmark against the other Bayline plants. Let me scope a phased plan and bring it back next week.\"",
+          "\"Before we lock the format, I'd want to do proper diagnostics — interviews across all three shifts, observations, a quick benchmark against the other Logistics XYZ sites. Let me scope a phased plan and bring it back next week.\"",
         why:
-          "Every individual move in this answer is defensible. The problem is the cumulative scope inside a three-week window — by the time Sam has interviewed across three shifts and benchmarked peer plants, the audit cycle is gone. The rigor is right; the calibration to the operational rhythm is off.",
+          "Every individual move in this answer is defensible. The problem is the cumulative scope inside a three-week window — by the time Sam has interviewed across three shifts and benchmarked peer sites, the audit cycle is gone. The rigor is right; the calibration to the operational rhythm is off.",
       },
     ],
     commonCore:
@@ -79,7 +79,7 @@ export const SCENARIOS = [
     channel: "Design review meeting · Conference Room 2B",
     from: {
       name: "Joe Martinez",
-      role: "Operations Director · Bayline Manufacturing",
+      role: "Operations Director · Logistics XYZ",
       initials: "JM",
     },
     message: [
@@ -270,7 +270,7 @@ export const SCENARIOS = [
     channel: "Hallway conversation · 14:40",
     from: {
       name: "Joe Martinez",
-      role: "Operations Director · Bayline Manufacturing",
+      role: "Operations Director · Logistics XYZ",
       initials: "JM",
     },
     message: [

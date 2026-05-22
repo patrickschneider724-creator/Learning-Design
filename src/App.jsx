@@ -79,7 +79,7 @@ function Cover({ onBegin }) {
             </div>
             <div className="brief-row">
               <span className="brief-key">The client</span>
-              <span className="brief-val">Bayline Manufacturing · 5S audit performance gap</span>
+              <span className="brief-val">Logistics XYZ · 5S audit performance gap</span>
             </div>
             <div className="brief-row">
               <span className="brief-key">The arc</span>
@@ -652,7 +652,7 @@ function Topbar({ onHome }) {
       </button>
 
       <div className="topbar-right mono small muted">
-        BAYLINE-MFG · 5S PERF GAP · {new Date().toISOString().slice(0, 10)}
+        LOGISTICS-XYZ · 5S PERF GAP · {new Date().toISOString().slice(0, 10)}
       </div>
     </header>
   );
